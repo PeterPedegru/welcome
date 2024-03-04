@@ -1,0 +1,8 @@
+def welcome_user():
+    username = input("Введите ваше имя: ")
+    welcome_message = f"Привет, {username}, добро пожаловать в сообщество Web3 энтузиастов!"
+    return welcome_message
+
+if __name__ == "__main__":
+    message = welcome_user()
+    print(message)
